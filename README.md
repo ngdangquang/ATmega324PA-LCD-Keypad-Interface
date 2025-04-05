@@ -3,6 +3,9 @@
 ## **Project Overview**
 This project demonstrates how to interface an **ATmega324PA** microcontroller with a **matrix keypad**, **LCD**, and **BAR LED**. The system scans the keypad for key presses and displays the corresponding value on both the **LCD** and **BAR LED**. It also includes a **debouncing** mechanism to ensure stable input detection.
 
+## **Project Diagram**
+![alt text](diagram.png)
+
 ## **Features**
 - **Matrix Keypad**: Scans and returns values corresponding to key presses (0x0 to 0xF).
 - **LCD Display**: Displays the key press value.
